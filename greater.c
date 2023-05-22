@@ -5,12 +5,7 @@ int main()
 {
     int a, b, c;
     printf("Enter any three numbers:\n");
-    printf("Enter first number:");
-    scanf("%d", &a);
-    printf("Enter second  number:");
-    scanf("%d", &b);
-    printf("Enter third number:");
-    scanf("%d", &c);
+    scanf("%d%d%d", &a, &b, &c);
     if (a > b)
     {
         if (a > c)
