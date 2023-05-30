@@ -21,7 +21,5 @@ int main()
 
     printf("\n your net amount is %d", a);
 
-    
     return 0;
 }
-

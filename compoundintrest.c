@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     printf("Enter rate of interest: ");
     scanf("%d", &r);
 
-c=p*pow(1+r/100)^t -p;
+    c = p * pow(1 + r / 100) ^ t - p;
 
- printf("\n your interest amount is %d", c);
+    printf("\n your interest amount is %d", c);
 }
