@@ -2,12 +2,12 @@
 
 int main()
 {
-    char lastName[] = {'H', 'A', 'Q'};
+    char lastName[] = {'H', 'A', 'Q', '\0'};
     char firstName[] = "AMAMUL";
 
     printf("%s\n", lastName);
 
-    for (int i = 0; i < 6; ++i)
+    for (int i = 0; i < 6; i++)
     {
         printf("%c", firstName[i]);
     }
