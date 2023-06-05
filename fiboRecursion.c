@@ -31,7 +31,7 @@ int fibo(int t)
     }
     else if (t < 0)
     {
-        printf("enter positive number :");
+        printf("Enter positive number :");
     }
 
     return fibo(t - 1) + fibo(t - 2);
