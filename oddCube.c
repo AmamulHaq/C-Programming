@@ -11,7 +11,7 @@ int main()
     int sum = 0;
     for (int i = 1; i <= n; i+=2)
     {
-        sum += pow(i, 3)/(n*2)! ;
+        sum += pow(i, 3);
     }
 
     printf("The sum of cubes of natural numbers up to %d is: %d\n", n, sum);
