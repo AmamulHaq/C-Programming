@@ -1,18 +1,29 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
 int main()
 {
 
-const myNum = 5 , herNum = 7;            
-const myFloatNum = 24.4 , herFloatNum = 42.2 ;  
-const myLetter = 'A' , herLetter = 'R' ;
-const myName[24]= "Amamul Haq" , herName[25]= "Rakshya Raut" ;    
+    int myNum, herNum;
+    float myFloatNum, herFloatNum;
+    char myLetter, herLetter;
+    char myName[24];
+    char herName[24];
 
-// Print variables
-printf("%d\n%d\n", myNum, herNum);
-printf("%.3f\n%.3f\n", myFloatNum , herFloatNum);
-printf("%c\n%c\n", myLetter , herLetter);
-printf("%s\n%s\n", myName , herName );
- return 0;
+    // Input and scan datas
+    printf("Enter any two different Numbers:");
+    scanf("%d\n%d", &myNum, &herNum);
+    printf("Enter any two different Decimal Numbers:");
+    scanf("%f\n%f", &myFloatNum, &herFloatNum);
+    printf("Enter any two different Alphabetes:");
+    scanf("%c\n%c", &myLetter, &herLetter);
+    printf("Enter any two different Names of friends:");
+    scanf("%s\n%s", myName, herName);
+
+    // Print variables
+    printf("%d\n%d\n", myNum, herNum);
+    printf("%.3f\n%.3f\n", myFloatNum, herFloatNum);
+    printf("%c\n%c\n", myLetter, herLetter);
+    printf("%s\n%s\n", myName, herName);
+    return 0;
 }
