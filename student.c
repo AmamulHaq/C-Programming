@@ -15,12 +15,10 @@ void displayStudent(struct Student student) {
 int main() {
     struct Student student1;
 
-    // Assign values to student1
-    strcpy(student1.name, "John Doe");
+    strcpy(student1.name, "amamul haw");
     student1.age = 20;
     student1.grade = 85.5;
 
-    // Display student1 information
     printf("Student 1 Information:\n");
     displayStudent(student1);
 
@@ -43,12 +41,10 @@ void displayStudent(struct Student student) {
 int main() {
     struct Student student1;
 
-    // Assign values to student1
     strcpy(student1.name, "John Doe");
     student1.age = 20;
     student1.grade = 85.5;
 
-    // Display student1 information
     printf("Student 1 Information:\n");
     displayStudent(student1);
 
