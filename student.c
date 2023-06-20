@@ -41,7 +41,7 @@ void displayStudent(struct Student student) {
 int main() {
     struct Student student1;
 
-    strcpy(student1.name, "John Doe");
+    strcpy(student1.name, "Amamul khan");
     student1.age = 20;
     student1.grade = 85.5;
 
