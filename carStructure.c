@@ -16,7 +16,7 @@ int main()
 
     struct Car car1, car2, car3;
     strcpy(car1.model, "X5");
-    car1.year = 1999;
+    car1.year = 1999;21
     strcpy(car2.model, "p5");
     car2.year = 2004;
     strcpy(car3.model, "y6");
