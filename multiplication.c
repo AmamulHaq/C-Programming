@@ -12,7 +12,7 @@ void add_matrices(int rows, int cols, int matrix1[][cols], int matrix2[][cols], 
 int main() {
     int rows = 3;
     int cols = 3;
-    int matrix1[3][3] = {{1, 2, 3},
+    int matrix1[3][3] = {{4, 3, 7},
                          {4, 5, 6},
                          {7, 8, 9}};
     int matrix2[3][3] = {{9, 8, 7},
