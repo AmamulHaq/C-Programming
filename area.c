@@ -13,7 +13,6 @@ int main()
     c = 2 * PI * r;
 
     printf("\n Area of circle is %f", a);
-    printf("\n Circumference is %f", c);
-
+    
     return 0;
 }
