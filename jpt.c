@@ -13,7 +13,7 @@ int main()
     scanf("%d %d %f %f %c %c %s %s", &myNum, &herNum, &myFloatNum, &herFloatNum, &myLetter, &herLetter, myName, herName);
 
     // Print variables
-    printf("%d\n%d\n%.3f\n%.3f\n%c\n%c\n%s\n%s\n", myNum, herNum, myFloatNum, herFloatNum, myLetter, herLetter, myName, herName);
+    printf("%d\n%.3f\n%.3f\n%c\n%c\n%s\n%s\n", myNum,myFloatNum, herFloatNum, myLetter, herLetter, myName, herName);
 
     return 0;
 }
