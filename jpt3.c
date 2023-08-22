@@ -1,15 +1,20 @@
 #include <stdio.h>
-#include <string.h>
+
+void doWork (int a, int b, int*sum, int*prod, int*avg);
 int main()
 {
-int age=22; //variable age and stored value is 22
-int *ptr=&age;// address of age variable
 
-*ptr=0;//age = 0
-age += 5;//increase age value by 5
-(*ptr)++;//increament of age by 1
-printf("%p\n",ptr);//to print memory address
-printf("%d\n",*ptr);//to show stored value
+int a=3, b=5;
+int sum,prod,avg;
+doWork (a, b, &sum, &prod, &avg);
 
 
-return 0;}
+return 0;
+}
+void doWork (int a, int b, int*sum, int*prod, int*avg)
+{
+sum=a+b; 
+prod=a*b;
+avg=(a+b)/2;
+printf("sum=%d, prod=%d, avg=%d",sum , prod, avg );
+}
