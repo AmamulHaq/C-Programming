@@ -1,15 +1,25 @@
 #include <stdio.h>
-#include <string.h>
+#include <math.h>
+
 int main()
 {
-int age=22; //variable age and stored value is 22
-int *ptr=&age;// address of age variable
+ int a,b,c;
+again:
+printf("Enter any three numbers:");
+scanf("%d%d%d",&a,&b,&c);
 
-*ptr=0;//age = 0
-age += 5;//increase age value by 5
-(*ptr)++;//increament of age by 1
-printf("%p\n",ptr);//to print memory address
-printf("%d\n",*ptr);//to show stored value
+if ((a>b && b>c)||(a<b && b<c))
+{
+    printf("%d is middle number", b);
+}
+else if ((b>c && c>a)||(b<c && c<a))
+{
+    printf("%d is middle number", c);
+}
+else if ((c>a && a>b)||(c<a && a<b))
+{
+      printf("%d is middle number", a);
+}goto again;
+return 0;
 
-
-return 0;}
+}   
