@@ -6,7 +6,7 @@ int main()
     char lastName[] = {'H', 'A', 'Q'};
     char firstName[] = "AMAMUL";
 
-    printf("%d\n %d", sizeof(firstName), strlen(firstName));
+    printf("%d\n %d\n", sizeof(firstName), strlen(firstName));
 
     for (int i = 0; i < strlen(firstName); ++i)
     {

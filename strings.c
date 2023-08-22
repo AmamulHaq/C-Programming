@@ -9,7 +9,7 @@ int main()
 
     for (int i = 0; i < 6; i++)
     {
-        printf("%c", firstName[i]);
+        printf("%c\n", firstName[i]);
     }
 
     lastName[2] = 'P';
