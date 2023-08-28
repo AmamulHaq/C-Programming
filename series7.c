@@ -8,7 +8,7 @@ main()
     fgets(para, sizeof(para), stdin);
     printf("Address of your numbers are:\n");
     for (int i = 0; para[i] != '\0'; i++)
-    // to locate the value of integer array
+    // to locate the address of integer array
       {printf("\t%u", &para[i]);}
    
    }

@@ -7,7 +7,7 @@ int main()
     char name[1000];
     printf("what is your name?..\n");
     fgets(name, sizeof(name), stdin);
-
+//to print value in reverse order
     t = strlen(name);
     printf("\nreverse of your name is:\n");
     for (int i = t - 1; i >= 0; i--)
