@@ -7,6 +7,6 @@ main()
     printf("Write a paragraph..\n");
     fgets(para, sizeof(para), stdin);
     for (int i = 0; para[i] != '\0'; i++)
-    {para[i] = toupper(para[i]);}// define different conditions
+    {para[i] = toupper(para[i]);}// define different functions
     printf("The entered inputs are:\n%s",para);
 }
