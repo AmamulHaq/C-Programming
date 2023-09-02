@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char para[1000];
+    char para[420];
     printf("Enter any digit numbers :\n");
     fgets(para, sizeof(para), stdin);
-    printf("words of your number are:\n");
-    for (int i = 0; i <=50; i++) {
+    printf("Reversed and its words of your number are:\n");
+    for (int i = 24; i >= 0 ; i--) {
         if (para[i] >= '0' && para[i] <= '9') {
             switch (para[i])  {
                     case '0': printf("Zero "); break;
