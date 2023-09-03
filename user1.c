@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+#include <math.h>
 
 int main() {
     char inputs[1000];
@@ -11,9 +13,9 @@ int main() {
     fgets(inputs, sizeof(inputs), stdin);
     printf("The entered inputs are:\n",inputs);
     
-    for (int i = 0; input[i] != '\0'; i++)
+    for (int i = 0; inputs[i] != '\0'; i++)
     // to locate the value of inputs array
-    {printf("\tdata[%d] = %c", i, input[i]);}
+    {printf("\tdata[%d] = %c", i, inputs[i]);}
 
 
     // Convert the inputs to one integer
