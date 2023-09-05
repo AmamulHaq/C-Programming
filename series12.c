@@ -7,7 +7,7 @@ int main()
     printf("Enter any number: \n");
     scanf("%d", &a);
 
-    int is_prime = 1;
+    int is_prime = 2;
     for (i = 2; i <= sqrt(a); i++)
     {
         if (a % i == 0)

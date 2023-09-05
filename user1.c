@@ -14,7 +14,7 @@ int main() {
     printf("The entered inputs are:\n",inputs);
     
     for (int i = 0; inputs[i] != '\0'; i++)
-    // to locate the value of inputs array
+    // to locate the each value of inputs array
     {printf("\tdata[%d] = %c", i, inputs[i]);}
 
 
