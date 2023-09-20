@@ -1,1 +1,2 @@
-input
+
+printf("\n");
