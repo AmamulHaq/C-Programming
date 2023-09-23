@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 main() {printf("\tKNOW CONDITION FOR MATRIX MULTIPLICATION\n");
     int a,b,c,d,m[10][10],n[10][10],product[10][10],sum[10][10],i,j,k;
     printf("\nEnter order of first matrix m:\n");scanf("%d %d", &a, &b);
@@ -15,7 +16,7 @@ main() {printf("\tKNOW CONDITION FOR MATRIX MULTIPLICATION\n");
      for (int i = 1; i <= a; i++){for (int k = 1; k <= d; k++){product[i][k] = 0;
       for (int j =1; j <=b ; j++){product[i][k] += m[i][j] * n[j][k];}
       printf("%d\t", product[i][k]);}printf("\n");}
-   if (a!=d){printf("Their sum is not possible\n");return 1;}
+   if (a!=d || b!=c){printf("\nTheir sum is not possible\n");return 1;}
      printf("\nSum of the matrices:\n");
       for (int i = 1; i <=a; i++){for (int j =1; j <=d; j++)
       {sum[i][j] = m[i][j] + n[i][j];
