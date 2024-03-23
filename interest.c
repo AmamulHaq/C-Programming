@@ -1,3 +1,4 @@
+//simple interest
 #include <stdio.h>
 int main()
 {
