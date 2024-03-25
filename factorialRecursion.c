@@ -1,4 +1,4 @@
-
+//factorial using recursion
 #include <stdio.h>
 #include <conio.h>
 
