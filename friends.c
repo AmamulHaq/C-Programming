@@ -1,3 +1,4 @@
+//friends details
 #include <stdio.h>
 #include <string.h>
 
@@ -12,7 +13,7 @@ struct student
 int main()
 {
     char name[50];
-    printf("Enter student name:");
+    printf("Enter name of your friend:\n");
     scanf("%s", name);
 
     struct student s1, s2, s3, s4, s5, s6, s7;
