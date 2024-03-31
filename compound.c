@@ -1,4 +1,4 @@
-//compound interest working
+//compound interest working     
 #include <stdio.h>
 #include <math.h>
 void compound(float p, int t, int r)

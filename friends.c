@@ -9,8 +9,8 @@ struct student
     char sports[50];
     int rollno;
 };
-
-int main()
+//with some details             
+int main()                                                                  
 {
     char name[50];
     printf("Enter name of your friend:\n");
