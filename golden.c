@@ -1,4 +1,5 @@
-else if (#include <stdio.h>
+//fibonacci sequence own
+#include <stdio.h>
 
 int fibonacci(int n) {
     if (n <= 1) {
@@ -32,7 +33,4 @@ int main() {
 
     return 0;
 }
-)
-{
-    /* code */
-}
+
