@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 int main()
 {
   int m[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
   int n[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
   int product[3][3];
   int sum[3][3];
-
+  //to sum two matrices
   printf("\nSum of the matrices:\n");
   for (int i = 0; i < 3; i++)
   {
@@ -17,6 +16,7 @@ int main()
     }
     printf("\n");
   }
+  //to product two matrices
   printf("\nProduct of the matrices:\n");
   for (int i = 0; i < 3; i++)
   {
