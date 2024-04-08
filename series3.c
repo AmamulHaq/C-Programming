@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//cube of number
 main()
 {
 printf("\n%d\tsquare\tcube\n");
