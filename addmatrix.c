@@ -1,4 +1,4 @@
-//matrix addition using function
+//matrix using function
 #include <stdio.h>
 
 void add_matrices(int rows, int cols, int matrix1[][cols], int matrix2[][cols], int result[][cols])
