@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <conio.h>
 
+//nested loop
 void main()
 {
     int i, j;
