@@ -5,7 +5,7 @@ struct time
 } t1, t2, s, d;
 
 void SD(struct time, struct time, struct time *, struct time *);
-void main()
+int main()
 {
 
     printf("\nEnter starting time:\n");
@@ -16,6 +16,7 @@ void main()
     SD(t1, t2, &s, &d);
     printf("\nS=%dhr%dmin%dsec", s.hr, s.min, s.sec);
     printf("\nD=%dhr%dmin%dsec", d.hr, d.min, d.sec);
+    return 0;
 }
 void SD(struct time t1, struct time t2, struct time *s, struct time *d)
 {

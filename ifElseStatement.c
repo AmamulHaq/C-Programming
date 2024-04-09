@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <conio.h>
 
-void main()
+int main()
 {
     int x;
     printf("Enter a number");
@@ -17,4 +16,5 @@ void main()
     }
     else
         printf("The number is Zero.");
+        return 0;
 }

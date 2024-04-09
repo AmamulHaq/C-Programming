@@ -1,6 +1,5 @@
 //factorial using recursion
 #include <stdio.h>
-#include <conio.h>
 
 int factorial(int);
 
@@ -22,8 +21,7 @@ int factorial(int x)
     }
     else if (x < 0)
     {
-        printf("Enter positve number.")
-        break;
+        printf("Enter positve number.");
     }
 
     return x * factorial(x - 1);
