@@ -13,7 +13,7 @@ int main()
     printf("Enter rate of Interest :");
     scanf("%d", r);
 
-    i = p * t * r / 100;
+    i = (p * t * r) / 100;
     a = p + i;
     printf("the interest amount is %d\n", i);
     printf("the net amount is %d", a);
