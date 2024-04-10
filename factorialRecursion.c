@@ -1,28 +1,21 @@
-//factorial using recursion
+// factorial using recursion
 #include <stdio.h>
 
-int factorial(int);
+int fact(int n)
+{
+    if (n == 0 || n == 1)
+    {
+        return 1;
+    }
+    return n * fact(n - 1);
+}
 
 int main()
 {
     int n;
-    printf("Enter a number :");
+    printf("Enter any number:");
     scanf("%d", &n);
-    printf("the factorial of is:%d", factorial(n));
+    printf("Factorial of %d is: %d\n", n, fact(n));
 
     return 0;
-}
-
-int factorial(int x)
-{
-    if (x == 1 || x == 0)
-    {
-        return 1;
-    }
-    else if (x < 0)
-    {
-        printf("Enter positve number.");
-    }
-
-    return x * factorial(x - 1);
 }
