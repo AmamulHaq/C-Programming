@@ -14,6 +14,7 @@ top:
         goto top;
     }
     printf("The sum is: %d", a + b);
+    //ask if to add again
     printf("\nWant to add more..(y/n)? ");
     scanf(" %c", &x);
 
