@@ -6,6 +6,7 @@ int max(int m[3][3])
     {
         for (int j = 0; j < 3; j++)
         {
+            printf("%d\t", m[i][j]);
             if (m[i][j] > max)
             {
                 max = m[i][j];
