@@ -26,7 +26,7 @@ int main() {
         sum += pow(-1, i + 1) * pow(x, t) / fact(t);
     }
     
-    printf("cos(%.2f) = %.2f", x*180/3.1415, sum);
+    printf("sin(%.2f) = %.2f", x*180/3.1415, sum);
     
     return 0;
 }
