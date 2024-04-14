@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main(){
 int n=3, count=1;
 for(int i=1;i<=n; i++){
     for(int j=1;j<=2*n-1;j++){
@@ -9,7 +9,12 @@ for(int i=1;i<=n; i++){
             else{printf("   ");}
 
         }printf("\n");
-    }
+    }return 0;
 }
+/* symmetric flyod triangle
+        1      
+     2  3  4   
+  5  6  7  8  9
 
+*/
 

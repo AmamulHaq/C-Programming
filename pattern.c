@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//convert name in capital and small alphabet
 int main()
 {char name[24];
 printf("Enter your name:");
