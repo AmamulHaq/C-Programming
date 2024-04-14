@@ -3,9 +3,10 @@
 int main()
 {
     char str[42];
-    printf("Tell about yourself\n");
+    int l;
+    printf("Who are you?\n");
     scanf("%s", str);
-    printf("The length of text is: %lu", strlen(str));
-
+    l = strlen(str);
+    printf("The length of text is: %d", l);
     return 0;
 }
