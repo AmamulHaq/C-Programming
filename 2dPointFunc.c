@@ -1,4 +1,5 @@
 #include <stdio.h>
+//function definition using pointer 
 void Sum(int **m, int **n)
 {
     int sum[3][3];
